@@ -1,4 +1,5 @@
 import { hello } from "../../declarations/hello";
+// import 'bootstrap/dist/css/bootstrap.css';
 
 document.querySelector("form").addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -14,6 +15,9 @@ document.querySelector("form").addEventListener("submit", async (e) => {
   button.removeAttribute("disabled");
 
   document.getElementById("greeting").innerText = greeting;
+
+  document.getElementById("greetings").style.display = 'none';
+
 
   return false;
 });

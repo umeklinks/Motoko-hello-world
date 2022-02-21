@@ -23,15 +23,33 @@ form {
 button[type="submit"] {
     padding: 5px 20px;
     margin: 10px auto;
+    border-radius: 10px;
     float: right;
+    font-size: 20px;
+}
+
+button:hover {
+    background: #522785;
+    color: white;
 }
 
 #greeting {
     margin: 10px auto;
     padding: 10px 60px;
     border: 1px solid #222;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 #greeting:empty {
     display: none;
 }
+
+#name{
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    height: 25px;
+}
+
